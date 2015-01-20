@@ -26,40 +26,40 @@ console.log("SUM =" + (sum));
 
 /*getAverageTime*/
 
-/*function averageTime () {*/
-var person =("matt", "mark");
+/*function race () {*/
+/*
+var person=prompt("Do you want matt or mark's average time?");
 
-var mattArray = [
+if(person==="matt"){
+var personArray = [
    240,
    210.4,
    235.1,
    208.9,
    197.5,
+]}else if(person==="mark") {
+var personArray = [
+   120,
+   110.4,
+   135.1,
+   108.9,
+   97.5
 ];
-
-
-/*
-var mark = {
-  finishingTime1: 120,
-  finishingTime2: 110.4,
-  finishingTime3: 135.1,
-  finishingTime4: 108.9,
-  finishingTime5: 97.5
-};*/
-
+}
 /*var getAverageTime = function(person) {*/
-
-var arrayLength = mattArray.length;
+/*
+var arrayLength = personArray.length;
 var sum=0;
 var i;
 
-/*var combo = {*/
+
 for(var i=0; i < arrayLength; i++){
-    sum+= parseFloat(mattArray[i]);
+    sum+= parseFloat(personArray[i]);
   }
-    /*var getAverageTime = combo/arrayLength;*/
+
 
 var getAverageTime = sum/arrayLength;
 
+console.log (getAverageTime);
 
-/*}*/
+*/
