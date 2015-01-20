@@ -2,7 +2,7 @@
   "use strict";
   /// return ..
 }*/
-/*
+
 function sumTwo () {
 var numbers = [];
 var inputnumber1=prompt("Input a number you want to add")
@@ -22,12 +22,12 @@ for(var i=0; i < arrayLength; i++){
 
 console.log("SUM =" + (sum));
 
-}*/
+}
 
 /*getAverageTime*/
 
-/*function race () {*/
-/*
+function race () {
+
 var person=prompt("Do you want matt or mark's average time?");
 
 if(person==="matt"){
@@ -47,7 +47,7 @@ var personArray = [
 ];
 }
 /*var getAverageTime = function(person) {*/
-/*
+
 var arrayLength = personArray.length;
 var sum=0;
 var i;
@@ -62,9 +62,9 @@ var getAverageTime = sum/arrayLength;
 
 console.log (getAverageTime);
 
-*/
+}
 
-
+function bank (){
 
 MattsBankAccount = {
   checking: 0,
@@ -88,9 +88,9 @@ var RobertosBankAccount = {
   retirement: 0
 };
 
-RobertosBankAccount.checking=(200);
-RobertosBankAccount.savings =(50);
-RobertosBankAccount.retirement=(19);
+// RobertosBankAccount.checking=(200);
+// RobertosBankAccount.savings =(50);
+// RobertosBankAccount.retirement=(19);
 
 
 var RobertosTotal = RobertosBankAccount.checking + RobertosBankAccount.savings + RobertosBankAccount.retirement;
@@ -101,28 +101,26 @@ var getSumofAccounts =
 
 
 console.log(getSumofAccounts);
-
+}
 
 /*console.log (MattsTotal);*/
 
-/*
-function addToBank(account, savings, retirement, checking) {
-  account.savings = account.savings + savings;
-  account.retirement = account.retirement + retirement;
-  account.checking = account.checking + checking;
-}
 
-function getSumOfAccounts(account) {
+ function addToBank(account, savings, retirement, checking) {
+   account.savings = account.savings + savings;
+   account.retirement = account.retirement + retirement;
+   account.checking = account.checking + checking;
+ }
 
-}*/
+// function getSumOfAccounts(account) {
+//
+// }
 
 
 
-/*
-addToBank(RobertosBankAccount, 200, 50, 19);*/
-/*
+addToBank(RobertosBankAccount, 200, 50, 19);
+
 var sumOfMatts = getSumOfAccounts(MattsBankAccount);
 var sumOfRobertos = getSumOfAccounts(RobertosBankAccount);
 
 console.log(sumOfMatts - sumOfRobertos);
-*/
