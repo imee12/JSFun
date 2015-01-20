@@ -63,3 +63,66 @@ var getAverageTime = sum/arrayLength;
 console.log (getAverageTime);
 
 */
+
+
+
+MattsBankAccount = {
+  checking: 0,
+  savings: 0,
+  retirement: 0
+};
+
+
+MattsBankAccount.checking=(100);
+MattsBankAccount.savings=(10);
+MattsBankAccount.retirement=(1);
+
+var MattsTotal = MattsBankAccount.checking + MattsBankAccount.savings + MattsBankAccount.retirement;
+
+/*console.log(MattsTotal);*/
+
+
+var RobertosBankAccount = {
+  checking: 0,
+  savings: 0,
+  retirement: 0
+};
+
+RobertosBankAccount.checking=(200);
+RobertosBankAccount.savings =(50);
+RobertosBankAccount.retirement=(19);
+
+
+var RobertosTotal = RobertosBankAccount.checking + RobertosBankAccount.savings + RobertosBankAccount.retirement;
+
+var getSumofAccounts =
+  MattsTotal - RobertosTotal;
+
+
+
+console.log(getSumofAccounts);
+
+
+/*console.log (MattsTotal);*/
+
+/*
+function addToBank(account, savings, retirement, checking) {
+  account.savings = account.savings + savings;
+  account.retirement = account.retirement + retirement;
+  account.checking = account.checking + checking;
+}
+
+function getSumOfAccounts(account) {
+
+}*/
+
+
+
+/*
+addToBank(RobertosBankAccount, 200, 50, 19);*/
+/*
+var sumOfMatts = getSumOfAccounts(MattsBankAccount);
+var sumOfRobertos = getSumOfAccounts(RobertosBankAccount);
+
+console.log(sumOfMatts - sumOfRobertos);
+*/
