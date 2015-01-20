@@ -106,21 +106,31 @@ console.log(getSumofAccounts);
 /*console.log (MattsTotal);*/
 
 
- //function addToBank(account, savings, retirement, checking) {
-   //account.savings = account.savings + savings;
-   //account.retirement = account.retirement + retirement;
-   //account.checking = account.checking + checking;
-// }
+function addToBank(account, savings, retirement, checking) {
+   account.savings = account.savings + savings;
+   account.retirement = account.retirement + retirement;
+   account.checking = account.checking + checking;
+ }
 
+return (account.savings + account.retirement + account.checking)
 // function getSumOfAccounts(account) {
 //
 // }
 
 
-
+addToBank(MattsBankAccount, 100, 10, 1);
 addToBank(RobertosBankAccount, 200, 50, 19);
 
 var sumOfMatts = getSumOfAccounts(MattsBankAccount);
 var sumOfRobertos = getSumOfAccounts(RobertosBankAccount);
 
 console.log(sumOfMatts - sumOfRobertos);
+
+
+
+
+myArray = ["this", "that", "the other"];
+  for (var i = 0; i < myArray.length; i++) {
+    console.log(myArray[i]);
+  }
+//will print this that and the other consecutively
