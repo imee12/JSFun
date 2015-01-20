@@ -106,11 +106,11 @@ console.log(getSumofAccounts);
 /*console.log (MattsTotal);*/
 
 
- function addToBank(account, savings, retirement, checking) {
-   account.savings = account.savings + savings;
-   account.retirement = account.retirement + retirement;
-   account.checking = account.checking + checking;
- }
+ //function addToBank(account, savings, retirement, checking) {
+   //account.savings = account.savings + savings;
+   //account.retirement = account.retirement + retirement;
+   //account.checking = account.checking + checking;
+// }
 
 // function getSumOfAccounts(account) {
 //
