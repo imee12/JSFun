@@ -144,3 +144,26 @@ var sumOfMatts = getSumOfAccounts(MattsBankAccount);
 var sumOfRobertos = getSumOfAccounts(RobertosBankAccount);
 
 console.log(sumOfMatts - sumOfRobertos);
+
+
+var i = 0;
+while (i < 100) {
+
+
+  console.log(i);
+
+  i++;
+
+};
+
+while (i<100) {
+  if(i%3=i){
+  console.log((i) + "Fizz");
+}else if(i%5=i){
+  console.log((i) +"Buzz");
+} else if(i%3 && i%5=i) {
+  console.log((i) + "FizzBuzz")
+}
+  i++;
+}
+}
