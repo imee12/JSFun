@@ -7,7 +7,7 @@ var sum = function(a, b) {
 console.log(sum(8, 11));
 
 
-var person = (matt, mark);
+//var person = (matt, mark);
 
 var matt = {
   finishingTime1: 240,
